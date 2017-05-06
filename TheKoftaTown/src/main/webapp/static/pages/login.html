@@ -1,0 +1,13 @@
+<form id="login" method="post" ng-submit="login()" >
+    <h1>Log In</h1>
+    <fieldset >
+       <!-- <legend>Your Login info</legend> -->
+   <!--  <label for="password">User Name:</label> -->
+        <input id="username" type="text" placeholder="Username" ng-model="user.useId" autofocus required>   
+        
+        <!--  <label for="password">Password:</label> -->
+          <input type="password" id="password" placeholder="Password" ng-model="user.password" name="user_password">
+        
+    </fieldset>
+     <button type="submit">Login</button>  <fieldset > <a href="">Forgot your password?</a><a href="">Register</a> </fieldset>
+</form>

@@ -1,0 +1,34 @@
+<html>
+
+<body>
+
+  
+    
+
+      <form  ng-submit="newProduct()" method="post" name="singUpForm">
+      
+        <h1>Add New Products </h1>
+        
+        <fieldset>
+          
+          <label for="name">Product Name:</label>
+          <input type="text" id="name" name="product_name" ng-model="addNewProductDetails.productName">
+          
+          <label for="price">Price:</label>
+          <input type="Number" id="price" name="user_email" ng-model="addNewProductDetails.price">
+          
+          <label for="imges">Product Images:</label>
+           <input type="file" id="fileInput" accept="image/*" name="file"/>
+          <!-- <input type="password" id="password" name="user_password" ng-model="addNewProductDetails.productImg"> -->
+          
+          
+        
+        </fieldset>
+       
+    
+        <button type="submit">Add New Product</button>
+      </form>
+      
+    </body>
+</html>
+

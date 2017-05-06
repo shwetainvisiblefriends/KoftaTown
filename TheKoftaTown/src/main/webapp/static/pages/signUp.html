@@ -1,0 +1,23 @@
+  
+    <body>
+
+      <form  ng-submit="newUser('USER')" method="post" name="singUpForm">
+      
+        <h1>Sign Up</h1>
+        
+        <fieldset>
+
+          <input type="text" placeholder="Name" id="name" name="user_name" ng-model="user.userName">
+          <input type="email" placeholder="Email" id="mail" name="user_email" ng-model="user.useId">
+          <input type="password" placeholder="Password" id="password" name="user_password" ng-model="user.password">
+          <input type="Number" placeholder="Contact Number" id="contactNumber" name="contactNumber" ng-model="user.contactNumber">
+          
+        
+        </fieldset>
+       
+    
+        <button type="submit">Sign Up</button>
+      </form>
+      
+    </body>
+</html>

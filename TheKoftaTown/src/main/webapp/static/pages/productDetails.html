@@ -1,0 +1,41 @@
+<div style="color:white" >
+<div style="margin-left: 15%;">
+<ul  ng-repeat="singleProductDetail in allData | filter:q | startFrom:currentPage*pageSize | limitTo:pageSize">
+<li>
+
+<div style="border:2px solid black ;height: 400px ;width: 400px ;background-color: #333;">
+<img ng-src="{{addConstantForDisplyImg+singleProductDetail.productImg}}"  style="width:100%;height:60%;">
+
+<br>
+<br >
+<input type="checkbox" name="selectedProduct"	 ng-model="checkBoxValue"  ng-click="getValue(singleProductDetail,singleProductDetail.price*selectedQty,selectedQty,this)">
+<span class="fontCssForProductName">{{singleProductDetail.productName}}
+
+
+</span>
+
+<br>
+<span  class="marginCSS"> Select quantity</span>
+<select class="cssForFoodQty"  ng-model="selectedQty" value ="0"ng-options="x for x in quantities">
+</select>
+<br>
+<span  class="marginCSS">Total Amount    {{singleProductDetail.price*selectedQty}}</span> 
+
+
+</div>
+</li>
+</ul>
+</div>
+<!-- <div>
+      <button ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1" class="buttonWidthForPagignation">
+        Previous
+    </button>
+    <span style="color:red ;margin-left: 12%;">{{currentPage+1}}/{{numberOfPages()}}</span>
+    <button ng-disabled="currentPage >= getData().length/pageSize - 1" class="buttonWidthForPagignation" ng-click="currentPage=currentPage+1">
+        Next
+    </button>
+    </div> -->
+    </div>
+    <br>
+    <div class="paynow"><button type="submit"  ng-click="open()" > Pay Now</button></div>
+    

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body data-ng-init="onload()">
+
+
+<div class="row wrapper">
+
+  <div class="left-nav">
+    <div id="side-nav" class="adminPanelParentCSS">
+     
+				<ul  id="nav" >
+					<li><a ui-sref=".addNewProduct">Add New Product</a></li>
+					<li><a ui-sref=".createNewAdmin">Create New Admin</a></li>
+					<li><a ui-sref=".checkOrder">Check Order </a></li>
+					<li><a ui-sref=".checkTotalSale">Check Sale</a></li>
+				</ul>
+				
+				
+			</div>
+		</div>
+	
+
+	<div  ui-view class="adminPanalChildPagesCSS">
+</div></div>
+</body>
+</html>

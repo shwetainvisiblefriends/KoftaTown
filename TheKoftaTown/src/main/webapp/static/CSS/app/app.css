@@ -1,0 +1,322 @@
+body {
+   
+   background-image: url("../../img/bc-image.png") ;
+     background-repeat:no-repeat;
+     background-size: cover;
+     background-position:center;
+     background-attachment: fixed;
+     
+      
+     height: 100%;
+     width: 100%;
+      font-family: initial;
+      color: #384047;
+}
+
+.grid {
+  width: 80%;
+  height: 90%;
+}
+.ui-grid {
+    margin-top: -1% !important;
+    margin-left: 19% !important;}
+    
+.fontCssForProductName{
+	font-family: initial;
+	font-weight: bold;;
+	font-size: 25PX;
+	margin-left: 5%;
+}
+.cssForFoodQty{
+	margin-left: 5%;
+}
+.modal-dialog{
+	
+	width: 80% !important;
+}
+.gridIncenter {
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 8px;
+  
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+   color:#2e2e2e!important;
+   font-family: initial !important;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea
+ {
+
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  
+  color: #ffffff !important;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  font-weight:bold;
+	background-color:  #cecece!important;
+}
+.buttonWidthForPagignation{
+	    width: 20%;
+            margin-left: 17%;
+}
+ button, select{
+ 
+ background-color: #008000 ;
+ }
+/* input[type="radio"],
+input[type="checkbox"] {
+  margin-left: 5% !important;
+} */
+button {
+  padding: 19px 39px 18px 39px;
+  color: #ffffff !important;
+  background-color:#494949!important;
+  font-size: 26px;
+  font-weight:bold
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  font-family: initial;
+  
+  
+  border:rgba(255, 152, 0, 0.59);
+  font-size: 19px !important;
+    font-weight: bold !important;
+}
+
+.paynow {
+  
+  font-family: initial;
+  margin-left:35%;
+	width:30%;
+}
+
+input::-webkit-input-placeholder {
+color: #ffffff !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #ffffff !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #ffffff !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #ffffff !important;  
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 26px;
+  margin-bottom: 16px;
+  color:#ffffff !important;
+  font-family: initial;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  font-size: 26px;
+  margin-bottom: 10px;
+   color: #000000!important;
+   font-weight:bold;
+   font-family: initial;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.headerWidth{
+	width: 100% !important;
+    height: 100% !important;
+  
+    
+    line-height: 1.428571429;
+}
+.navbar-brand{
+	color:#ffffff;
+    text-decoration: none;
+     font-size: 20px;
+    font-family: initial;
+}
+ 
+ 
+ .nav>li>a {
+    color:#ffffff;
+    text-decoration: none;
+     font-size: 20px;
+    font-family: initial;
+    
+}
+.navbar-brandli>a{
+	color:#ffffff;
+    text-decoration: none;
+     font-size: 20px;
+    font-family: initial;
+}
+
+.container{
+	background-color:#494949!important; 
+	max-width: none !important;
+	padding: 0;
+	
+}
+ul{
+	display: inline-block !important;
+}
+
+.top-navbar {
+	float: left;
+	width: 100%;
+}
+
+.left-nav {
+	float: none!important;
+	width: 150px;
+	vertical-align:top;
+}
+
+.bgNfontColorofCell{
+	background-color: rgba(255, 152, 0, 0.59) !important ;
+	color:#ffffff;
+	border: 20 px solid white;
+}
+
+.ui-grid-cell-contents {
+	border: 1px solid #ffffff;
+}
+
+.ui-grid-header-cell-wrapper {
+    
+    background-color: #008000;
+    color: #ffffff;
+    font-family: initial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar-nav > li > a:hover,.navbar-nav > li:focus {
+    background-color:#cecece!important;
+    
+}
+a{
+	
+	color: white !important;
+}
+
+.grid {
+  width: 1200px;
+  height: 250px;
+  border: 1px solid #ffffff;
+}
+
+.marginCSS{
+	margin-left: 14%;
+}
+
+input[name="selectedProduct"],input[type="checkbox"]{
+c
+-webkit-appearance: none;
+appearance: none;
+background-color:white;
+border-radius: 1px;
+box-sizing: border-box;
+position: relative;
+box-sizing: content-box ;
+margin-left: 2% !important;
+border-width: 0;
+transition: all .3s linear;
+
+}
+.adminPanelParentCSS{
+	
+	
+    width: 157%;
+    height: 167%;
+    font-size: 165%;
+    margin-top: 24%;
+    font-family: initial;
+    font-weight: bold;
+    background-color: green;
+}
+
+.adminPanalChildPagesCSS{
+	
+	/* margin-left: 29%; */
+	margin-top: -9%;
+}
+
+
